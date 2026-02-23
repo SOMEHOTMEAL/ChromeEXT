@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TabVault",
+  "version": "0.3",
+
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "downloads",
+    "contextMenus"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
